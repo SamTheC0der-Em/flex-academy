@@ -4,7 +4,7 @@ import Button from "../components/Button.jsx";
 export default function Header() {
   return (
     <header className="px-4 pt-4 ">
-      <nav className="fixed left-4 right-4 top-4 z-50 mx-auto flex min-h-12 max-w-6xl items-center justify-between gap-4 rounded-full bg-white pl-5 pr-1.5 py-2 shadow-[0px_0px_36px_0px_#274E4C40]  text-base font-bold">
+      <nav className="fixed left-4 right-4 top-4 z-50 mx-auto flex min-h-12 max-w-[1296px] items-center justify-between gap-4 rounded-full bg-white pl-5 pr-1.5 py-2 shadow-[0px_0px_36px_0px_#274E4C40]  text-base font-bold">
         <a href="#" className="shrink-0">
           <img src={logo} />
         </a>
